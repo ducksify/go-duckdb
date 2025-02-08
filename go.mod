@@ -1,6 +1,6 @@
 module github.com/marcboeker/go-duckdb
 
-go 1.23
+go 1.24rc2
 
 require (
 	github.com/apache/arrow-go/v18 v18.1.0
@@ -30,3 +30,5 @@ require (
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+tool github.com/marcboeker/go-duckdb/cmd/setup
